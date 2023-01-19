@@ -2,6 +2,24 @@
   text-align: center;
 }
 
+html{
+  background-color: #222;
+  position: absolute;
+  inset: 0;
+  display: flex;
+  place-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+h1, h2{
+  color: white;
+}
+
+.si{
+  text-shadow: white;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
